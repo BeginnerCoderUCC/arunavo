@@ -11,7 +11,7 @@ app.set('view engine','pug');
 app.set('views', path.join(__dirname,'views'));
 //file require for the project
 
-app.get("/docs",(req,res)=>{
+app.get("/",(req,res)=>{
     res.render("home.pug");
 
     
