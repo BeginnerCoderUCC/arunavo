@@ -72,3 +72,53 @@ a{
     
     
 }
+@media (max-width:600px) {
+    .content{
+        font-size:10px;
+    }
+    .joe{
+        font-size:40px;
+        text-align:center;
+    }
+    
+
+
+    
+}
+@media (max-width:600px){
+    .je{
+        width:320px;
+        text-align: center;
+        margin:auto;
+        font-size:20px;
+        
+    }
+    .content{
+        width:300px;
+
+       
+    }
+    .nav{
+        width:300px;
+        
+    }
+   
+}
+@media (max-width:600px){
+    .footer{
+        width:300px;
+    }
+    .death{
+        justify-content: center;
+
+    }
+}
+@media (max-width:600px){
+    .les{
+        padding:30px;
+    }
+    .doth{
+        display:flex;
+        justify-content: center;
+    }
+}
