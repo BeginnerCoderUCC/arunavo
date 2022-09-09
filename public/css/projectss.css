@@ -73,3 +73,35 @@
 a{
     text-decoration: none;
 }
+@media (max-width:600px){
+    .nav{
+        width:300px;
+    }
+    .content{
+        width:300px;
+    }
+}
+@media (max-width:600px){
+    .container{
+        width:300px;
+    }
+    .footer{
+        width:300px;
+    }
+}
+@media (max-width:600px){
+    .yo{
+        width:300px;
+    }
+    .first{
+        font-size:40px;
+    }
+}
+@media (max-width:600px){
+    .para{
+        font-size:15px;
+    }
+    .yo{
+        font-size:16px;
+    }
+}
