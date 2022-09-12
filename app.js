@@ -19,6 +19,9 @@ app.get("/",(req,res)=>{
 app.get("/project",(req,res)=>{
     res.render("projects.pug");
 })
+app.get("/contacts",(req,res)=>{
+    res.render("contacts.pug");
+})
 app.listen(port,()=>{
     console.log((`the server is running on port ${port} `));
 })
